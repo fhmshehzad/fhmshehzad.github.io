@@ -21,6 +21,48 @@ the military, industrial, agricultural, financial and even the medical sector.
 [Solution_Model](https://drive.google.com/file/d/1bQxH2NFM2fNhgc6dAsyKPVCNOAEj7ocu/view?usp=sharing)
 [Architectural_Model](https://drive.google.com/file/d/1Dh0heA0ERAGdRsReTPb0wW4jUTJcg7GH/view?usp=sharing)
 ```
+### PyShark
+
+A Python3 scapy based Packet Sniffer that has the capabilities of sniffing raw HTTP, TCP, UDP, ICMP, ARP packets and writing the output to .pcap for inspection within tools such as Wireshark.
+```markdown
+Features
+
+    Python 3 Support
+    Raw Packet Capturing
+    Pure Python
+    Cross-Platform
+    Supported Layers: HTTP, TCP, UDP, ICMP
+
+Installation:
+
+Cloning:
+
+$ git clone https://github.com/pyshark/pyshark.git
+$ cd pyshark/
+$ pip3 install -r requirements.txt
+
+First Run:
+
+$ python3 pyshark.py
+
+Usage
+
+usage: pyshark.py [-h] [-c COUNT] [-f FILTER [FILTER ...]] [-H] [-o OUTFILE] [-i INTERFACE]
+
+PyShark - HTTP Packet Sniffer.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c COUNT, --count COUNT
+                        Numbers of packets that you need to capture (0 = Infinity)
+  -f FILTER [FILTER ...], --filter FILTER [FILTER ...]
+                        The Berkeley Packet Filter (BPF) that you need to set. (Default is: 'port 80 and tcp') NOTE: You need to Specify them as a string
+  -H, --http-only       Limit the results to display only http/https packets
+  -o OUTFILE, --outfile OUTFILE
+                        Store all the sniffed packet to a .pcap file (You don't need Specify the extension, just the file name.)
+  -i INTERFACE, --interface INTERFACE
+                        Specify an interface to sniff traffic on
+```
 
 ## Support or Contact
 
