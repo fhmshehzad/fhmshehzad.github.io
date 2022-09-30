@@ -37,31 +37,31 @@ Installation:
 
 Cloning:
 
-$ git clone https://github.com/pyshark/pyshark.git
-$ cd pyshark/
-$ pip3 install -r requirements.txt
+    $ git clone https://github.com/pyshark/pyshark.git
+    $ cd pyshark/
+    $ pip3 install -r requirements.txt
 
 First Run:
 
-$ python3 pyshark.py
+    $ python3 pyshark.py
 
 Usage
 
-usage: pyshark.py [-h] [-c COUNT] [-f FILTER [FILTER ...]] [-H] [-o OUTFILE] [-i INTERFACE]
+    usage: pyshark.py [-h] [-c COUNT] [-f FILTER [FILTER ...]] [-H] [-o OUTFILE] [-i INTERFACE]
 
 PyShark - HTTP Packet Sniffer.
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -c COUNT, --count COUNT
-                        Numbers of packets that you need to capture (0 = Infinity)
-  -f FILTER [FILTER ...], --filter FILTER [FILTER ...]
-                        The Berkeley Packet Filter (BPF) that you need to set. (Default is: 'port 80 and tcp') NOTE: You need to Specify them as a string
-  -H, --http-only       Limit the results to display only http/https packets
-  -o OUTFILE, --outfile OUTFILE
-                        Store all the sniffed packet to a .pcap file (You don't need Specify the extension, just the file name.)
-  -i INTERFACE, --interface INTERFACE
-                        Specify an interface to sniff traffic on
+    optional arguments:
+      -h, --help            show this help message and exit
+      -c COUNT, --count COUNT
+                            Numbers of packets that you need to capture (0 = Infinity)
+      -f FILTER [FILTER ...], --filter FILTER [FILTER ...]
+                            The Berkeley Packet Filter (BPF) that you need to set. (Default is: 'port 80 and tcp') NOTE: You need to Specify them as a string
+      -H, --http-only       Limit the results to display only http/https packets
+      -o OUTFILE, --outfile OUTFILE
+                            Store all the sniffed packet to a .pcap file (You don't need Specify the extension, just the file name.)
+      -i INTERFACE, --interface INTERFACE
+                            Specify an interface to sniff traffic on
 ```
 
 ## Support or Contact
