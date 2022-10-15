@@ -24,22 +24,22 @@ the military, industrial, agricultural, financial and even the medical sector.
 **Genesis Block**
 STEP 1
     Installing Required Packages
-<sudo apt-get install software-properties-common>
-<sudo add-apt-repository -y ppa:ethereum/ethereum>
-<sudo add-apt-repository -y ppa:ethereum/ethereum-dev>
-<sudo apt-get update>
-<sudo apt-get install ethereum>
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install ethereum
 
 STEP 2
     On every node
-<geth --datadir node1 account new>
+geth --datadir node1 account new
 STEP 3
     Use puppeth to create genesis file 
 STEP 4
     Export the genesis file
 STEP 5
     On every node
-<geth --datadir node1/ init genesis.json>
+geth --datadir node1/ init genesis.json
 ```
 ### PyShark
 
