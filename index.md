@@ -20,6 +20,26 @@ the military, industrial, agricultural, financial and even the medical sector.
 
 [Solution_Model](https://drive.google.com/file/d/1bQxH2NFM2fNhgc6dAsyKPVCNOAEj7ocu/view?usp=sharing)
 [Architectural_Model](https://drive.google.com/file/d/1Dh0heA0ERAGdRsReTPb0wW4jUTJcg7GH/view?usp=sharing)
+
+### Genesis Block
+STEP 1
+    Installing Required Packages
+<sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+sudo apt-get update
+sudo apt-get install ethereum>
+
+STEP 2
+    On every node
+<geth --datadir node1 account new>
+STEP 3
+        Use puppeth to create genesis file 
+STEP 4
+    Export the genesis file
+STEP 5
+    On every node
+<geth --datadir node1/ init genesis.json>
 ```
 ### PyShark
 
