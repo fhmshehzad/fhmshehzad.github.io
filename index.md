@@ -41,6 +41,9 @@ STEP 5
     On every node
 geth --datadir node1/ init genesis.json
 ```
+```markdown
+
+```
 ### PyShark
 
 A Python3 scapy based Packet Sniffer that has the capabilities of sniffing raw HTTP, TCP, UDP, ICMP, ARP packets and writing the output to .pcap for inspection within tools such as Wireshark.
