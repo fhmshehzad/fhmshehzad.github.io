@@ -53,7 +53,7 @@ Installation:
 
 Cloning:
 
-    $ git clone [https://github.com/pyshark/pyshark.git](https://github.com/fhmshehzad/pyshark.git)
+    $ git clone https://github.com/fhmshehzad/pyshark.git
     $ cd pyshark/
     $ pip3 install -r requirements.txt
 
