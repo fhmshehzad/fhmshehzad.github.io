@@ -84,7 +84,7 @@ PyShark - HTTP Packet Sniffer.
 
 [Github](https://github.com/fhmshehzad)
 
-[Discord](https://drive.google.com/file/d/1OtPyWSYNsOFHaNZyMQOl2Fw77l3lrjyj/view?usp=sharing)
+[Discord](https://discordapp.com/users/docparadox42026)
 
 [Twitter](https://twitter.com/fhm_sh)
 
